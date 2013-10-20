@@ -76,11 +76,10 @@ $(document).ready(function(){
                 }
                 
         }); // window scroll Ends
-		var txt = $('.msg').text();
+/*		var txt = $('.msg').text();
 		var flag=0;
         $('.msg').scrambledWriter();
-        $('#mainlogo').addClass(' animated fadeInUp');
-		$('.msg').addClass(' animated fadeInDown');
+
 		setInterval(function (){
 			if(flag==0){
 				$('.msg').text("I do web development, mobile development and System Analysis and Design.");
@@ -94,7 +93,15 @@ $(document).ready(function(){
              //something you want delayed
 
          }, 15000); // how long do you want the delay to be? 	
-		
+*/		
+        $('#mainlogo').addClass(' animated fadeInUp');
+		$('.msg').addClass(' animated fadeInDown');
+		$("#mainlogo").delay(5000).animate({
+            marginTop: '15%'
+        }, 1000);
+		$('#about').addClass(' animated fadeInUp');
+		$('#portfolio').addClass(' animated fadeInUp');
+		$('#contact').addClass(' animated fadeInUp');
     });	
 
 }); 
