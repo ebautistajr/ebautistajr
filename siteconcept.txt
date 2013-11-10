@@ -1,0 +1,4 @@
+SITE CONCEPT
+
+1. Ask user nickname
+2. Show linux like dashboard

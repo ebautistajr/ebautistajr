@@ -269,31 +269,42 @@ Global CSS HEAD START
 		height: 100px;
 	}
 	.menu .box-menu{
-		width: 50px;
-		height: 50px;
-		background-color: black;
 		float: left;
+                transition: all 0.4s ease-in-out;
 	}
 	.menu .first{
-		margin-right: 100px;
-		background-size: cover;
+                width: 65px;
+		height: 65px;
+                margin-left: 60px;
+                margin-right: 110px;
+                background: url(../img/aboutme.png) no-repeat center;
 		-webkit-animation-duration: 2s;
 		-webkit-animation-delay: 6s;		
 	}	
 	.menu .first:hover{
-		background: url(../img/aboutme.png) no-repeat ;
+		background: url(../img/aboutme.png) no-repeat;
 	}		
 	.menu .second{
-		margin-right: 100px;
-		margin-left: 100px;
+                width: 65px;
+		height: 65px;  
+                background: url(../img/codes.png) no-repeat center;
 		-webkit-animation-duration: 2s;
 		-webkit-animation-delay: 6.3s;			
-	}		
+	}	
+	.menu .second:hover{
+                background: url(../img/codes.png) no-repeat ;
+	}	        
 	.menu .third{
-		margin-left: 100px;
+                width: 65px;
+		height: 65px;   
+                margin-left: 110px;
+                background: url(../img/blog.png) no-repeat center ;
 		-webkit-animation-duration: 2s;
 		-webkit-animation-delay: 6.6s;			
-	}		
+	}	
+	.menu .third:hover{
+                background: url(../img/blog.png) no-repeat ;
+	}	               
     #gateway-innovation { 
         height: 1000px; 
         width: 100%; 
