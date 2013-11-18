@@ -104,29 +104,39 @@ $(document).ready(function(){
         $('#about').addClass(' animated fadeInUp');
         $('#portfolio').addClass(' animated fadeInUp');
         $('#contact').addClass(' animated fadeInUp');
-        setTimeout( function(){
-            $("#about").css( "background-image", "url(img/aboutmeblur.png)" );
-            $("#portfolio").css( "background-image", "url(img/codesblur.png)" );
-            $("#contact").css( "background-image", "url(img/blogblur.png)" );
-        },10000);
+       /* setTimeout( function(){
+
+        },10000); */
         $( "#about" ).hover(
             function() {
                 $(this).css('background-image', 'url(img/aboutme.png)');
+                $("#portfolio").css( "background-image", "url(img/codesblur.png)" );
+                $("#contact").css( "background-image", "url(img/blogblur.png)" );
             }, function() {
-                $(this).css('background-image', 'url(img/aboutmeblur.png)');
+                unhover();
             });        
         $( "#portfolio" ).hover(
             function() {
+                $("#about").css( "background-image", "url(img/aboutmeblur.png)" );
                 $(this).css('background-image', 'url(img/codes.png)');
+                $("#contact").css( "background-image", "url(img/blogblur.png)" );
             }, function() {
-                $(this).css('background-image', 'url(img/codesblur.png)');
+                unhover();
             });        
         $( "#contact" ).hover(
             function() {
                 $(this).css('background-image', 'url(img/blog.png)');
+                $("#about").css( "background-image", "url(img/aboutmeblur.png)" );
+                $("#portfolio").css( "background-image", "url(img/codesblur.png)" );
             }, function() {
-                $(this).css('background-image', 'url(img/blogblur.png)');
-            });                    
+                unhover();
+            });  
+            
+            function unhover(){
+                 $("#about").css( "background-image", "url(img/aboutme.png)" );
+                 $("#portfolio").css( "background-image", "url(img/codes.png)" );
+                 $("#contact").css( "background-image", "url(img/blog.png)" );
+            }
     });	
 
 }); 

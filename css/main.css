@@ -305,52 +305,15 @@ Global CSS HEAD START
 	.menu .third:hover{
                 background: url(../img/blog.png) no-repeat ;
 	}	               
-    #gateway-innovation { 
-        height: 1000px; 
-        width: 100%; 
-        position: relative; 
-        box-shadow: 0 0 5px rgba(0,0,0,0);
-		float: left;
-    }    
-    #gateway-innovation div.wrapper { 
-        background: no-repeat scroll center top transparent; 
-        height: 458px; 
-        width: 100%; 
-        float: left;
-        margin: auto;
-    }
-    #gateway-innovation div.wrapper div.container { 
-        width: 1224px;
-        margin: auto;
-        color: #f5f5f5;
-        margin-top: 50px;
-        height: 100%;
-    }
-    #gateway-innovation h1.title {
-        font-family: Raleway;
-        font-size: 48px;
-        font-weight: 200;
-        color: #f5f5f5;
-        text-align: center;
-    }
-    #gateway-title{
-        display: none;
-    }
-    #gateway-innovation .gateway-boxes{
-        width: 368px;
-        height: 200px;
-        padding: 20px;
-        float: left;
-        text-align: center;
-        margin-top: 50px;
-        line-height: 28px;
-        font-size: 18px;
-        font-weight: normal;
-        font-family: Raleway;
-        display: none;
-    }
-    #gateway-innovation img{
-        margin: 0 0 20px 0;
+      #gateway-innovation { 
+		background: url(../img/pixelate.jpg) no-repeat center;
+		background-size: cover;
+            top: 0px;
+			height: 100vh;
+        max-width: 100%; 
+        min-width: 100%; 
+        position: relative;
+		float: left;		
     }
     .box-title{
         font-family: Raleway;
